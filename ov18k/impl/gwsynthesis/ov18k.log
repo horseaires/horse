@@ -1,0 +1,165 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\gaoyun\ov18k1\ov18k\src\cmos_add.v'
+Undeclared symbol 'empty', assumed default net type 'wire'("D:\gaoyun\ov18k1\ov18k\src\cmos_add.v":52)
+Analyzing Verilog file 'D:\gaoyun\ov18k1\ov18k\src\cmos_rpll\cmos_rpll.v'
+Analyzing Verilog file 'D:\gaoyun\ov18k1\ov18k\src\ddr3_memory_interface\ddr3_memory_interface.v'
+Analyzing Verilog file 'D:\gaoyun\ov18k1\ov18k\src\ddr_rpll\ddr_rpll.v'
+Analyzing Verilog file 'D:\gaoyun\ov18k1\ov18k\src\dual_ov5640_lcd.v'
+Analyzing Verilog file 'D:\gaoyun\ov18k1\ov18k\src\dvi_tx\dvi_tx.v'
+Analyzing Verilog file 'D:\gaoyun\ov18k1\ov18k\src\fifo_pong\fifo_pong.v'
+Analyzing Verilog file 'D:\gaoyun\ov18k1\ov18k\src\gowin_clkdiv\gowin_clkdiv.v'
+Analyzing Verilog file 'D:\gaoyun\ov18k1\ov18k\src\hdmi_rpll\hdmi_rpll.v'
+Analyzing Verilog file 'D:\gaoyun\ov18k1\ov18k\src\ov5640\OV5640_capture_data.v'
+Analyzing Verilog file 'D:\gaoyun\ov18k1\ov18k\src\ov5640\i2c_dri.v'
+Analyzing Verilog file 'D:\gaoyun\ov18k1\ov18k\src\ov5640\i2c_ov5640_rgb565_cfg.v'
+Analyzing Verilog file 'D:\gaoyun\ov18k1\ov18k\src\ov5640\ov5640_dri.v'
+Analyzing Verilog file 'D:\gaoyun\ov18k1\ov18k\src\ov5640\picture_size.v'
+Analyzing Verilog file 'D:\gaoyun\ov18k1\ov18k\src\syn_code\syn_gen.v'
+Analyzing Verilog file 'D:\gaoyun\ov18k1\ov18k\src\testpattern.v'
+Analyzing Verilog file 'D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer\video_frame_buffer.v'
+Analyzing Verilog file 'D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer_32\video_frame_buffer_32.v'
+Analyzing Verilog file 'D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer_dual\video_frame_buffer_dual.v'
+Analyzing Verilog file 'D:\gaoyun\ov18k1\ov18k\src\video_rpll\video_rpll.v'
+Analyzing VHDL file 'D:\gaoyun\ov18k1\ov18k\src\fifo_pong\fifo_pong.vhd'
+Analyzing entity '**'("D:\gaoyun\ov18k1\ov18k\src\fifo_pong\fifo_pong.vhd":0)
+Analyzing architecture '**'("D:\gaoyun\ov18k1\ov18k\src\fifo_pong\fifo_pong.vhd":0)
+Analyzing entity 'fifo_pong'("D:\gaoyun\ov18k1\ov18k\src\fifo_pong\fifo_pong.vhd":791)
+Analyzing architecture 'beh'("D:\gaoyun\ov18k1\ov18k\src\fifo_pong\fifo_pong.vhd":805)
+Analyzing Verilog file 'D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v'
+Analyzing included file 'D:\gaoyun\ov18k1\ov18k\impl\gwsynthesis\RTL_GAO\ao_0\gw_ao_top_define.v'("D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v":133)
+Back to file 'D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v'("D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v":133)
+Analyzing Verilog file 'D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v'
+Analyzing included file 'D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_define.v'("D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":693)
+Back to file 'D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v'("D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":693)
+Analyzing included file 'D:\gaoyun\ov18k1\ov18k\impl\gwsynthesis\RTL_GAO\ao_0\gw_ao_top_define.v'("D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":693)
+Back to file 'D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v'("D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":693)
+Analyzing included file 'D:\gaoyun\ov18k1\ov18k\impl\gwsynthesis\RTL_GAO\ao_0\gw_ao_parameter.v'("D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":693)
+Back to file 'D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v'("D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":693)
+Analyzing Verilog file 'D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v'
+Analyzing included file 'D:\gaoyun\ov18k1\ov18k\impl\gwsynthesis\RTL_GAO\ao_control\gw_con_top_define.v'("D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v":367)
+Back to file 'D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v'("D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v":367)
+Analyzing included file 'D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_parameter.v'("D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v":367)
+Back to file 'D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v'("D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v":367)
+Analyzing Verilog file 'D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\gw_jtag.v'
+Analyzing Verilog file 'D:\gaoyun\ov18k1\ov18k\impl\gwsynthesis\RTL_GAO\gw_gao_top.v'
+WARN  (EX3073) : Port 'Almost_Full' remains unconnected for this instance("D:\gaoyun\ov18k1\ov18k\src\cmos_add.v":54)
+WARN  (EX3073) : Port 'Almost_Full' remains unconnected for this instance("D:\gaoyun\ov18k1\ov18k\src\cmos_add.v":154)
+WARN  (EX3073) : Port 'cam_init_done' remains unconnected for this instance("D:\gaoyun\ov18k1\ov18k\src\dual_ov5640_lcd.v":189)
+WARN  (EX3073) : Port 'cam_init_done' remains unconnected for this instance("D:\gaoyun\ov18k1\ov18k\src\dual_ov5640_lcd.v":217)
+WARN  (EX3073) : Port 'O_vin0_fifo_full' remains unconnected for this instance("D:\gaoyun\ov18k1\ov18k\src\dual_ov5640_lcd.v":274)
+Compiling module 'cmos_add'("D:\gaoyun\ov18k1\ov18k\src\cmos_add.v":6)
+Compiling module 'fifo_pong'("D:\gaoyun\ov18k1\ov18k\src\fifo_pong\fifo_pong.v":615)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\fifo_pong\fifo_pong.v":0)
+Compiling module 'cmos_rPLL'("D:\gaoyun\ov18k1\ov18k\src\cmos_rpll\cmos_rpll.v":9)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module 'DDR3_Memory_Interface_Top'("D:\gaoyun\ov18k1\ov18k\src\ddr3_memory_interface\ddr3_memory_interface.v":11477)
+Compiling module 'ddr_rPLL'("D:\gaoyun\ov18k1\ov18k\src\ddr_rpll\ddr_rpll.v":9)
+Compiling module 'dual_ov5640_lcd'("D:\gaoyun\ov18k1\ov18k\src\dual_ov5640_lcd.v":1)
+Compiling module 'ov5640_dri'("D:\gaoyun\ov18k1\ov18k\src\ov5640\ov5640_dri.v":22)
+Compiling module 'i2c_ov5640_rgb565_cfg'("D:\gaoyun\ov18k1\ov18k\src\ov5640\i2c_ov5640_rgb565_cfg.v":22)
+Compiling module 'i2c_dri(SLAVE_ADDR=7'b0111100,CLK_FREQ=27'b101111101011110000100000000,I2C_FREQ=18'b111101000010010000)'("D:\gaoyun\ov18k1\ov18k\src\ov5640\i2c_dri.v":22)
+Compiling module 'OV5640_capture_data'("D:\gaoyun\ov18k1\ov18k\src\ov5640\OV5640_capture_data.v":22)
+WARN  (EX3670) : Actual bit length 12 differs from formal bit length 13 for port 'cmos_h_pixel'("D:\gaoyun\ov18k1\ov18k\src\dual_ov5640_lcd.v":179)
+WARN  (EX3670) : Actual bit length 12 differs from formal bit length 13 for port 'cmos_h_pixel'("D:\gaoyun\ov18k1\ov18k\src\dual_ov5640_lcd.v":207)
+Compiling module 'Video_Frame_Buffer_Top'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer\video_frame_buffer.v":4132)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module 'syn_gen'("D:\gaoyun\ov18k1\ov18k\src\syn_code\syn_gen.v":13)
+Compiling module 'hdmi_rPLL'("D:\gaoyun\ov18k1\ov18k\src\hdmi_rpll\hdmi_rpll.v":9)
+Compiling module 'Gowin_CLKDIV'("D:\gaoyun\ov18k1\ov18k\src\gowin_clkdiv\gowin_clkdiv.v":9)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'calib'("D:\gaoyun\ov18k1\ov18k\src\dual_ov5640_lcd.v":371)
+Compiling module 'DVI_TX_Top'("D:\gaoyun\ov18k1\ov18k\src\dvi_tx\dvi_tx.v":1042)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\dvi_tx\dvi_tx.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\dvi_tx\dvi_tx.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\dvi_tx\dvi_tx.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\dvi_tx\dvi_tx.v":0)
+WARN  (EX1947) : Input port 'sr_req' remains unconnected for this instance("D:\gaoyun\ov18k1\ov18k\src\dual_ov5640_lcd.v":330)
+WARN  (EX1987) : Input port 'ref_req' is not connected on this instance("D:\gaoyun\ov18k1\ov18k\src\dual_ov5640_lcd.v":330)
+Compiling module 'picture_size'("D:\gaoyun\ov18k1\ov18k\src\ov5640\picture_size.v":22)
+Compiling module 'testpattern'("D:\gaoyun\ov18k1\ov18k\src\testpattern.v":19)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer_32\video_frame_buffer_32.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer_32\video_frame_buffer_32.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer_32\video_frame_buffer_32.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer_32\video_frame_buffer_32.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer_32\video_frame_buffer_32.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer_32\video_frame_buffer_32.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer_32\video_frame_buffer_32.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer_32\video_frame_buffer_32.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer_32\video_frame_buffer_32.v":0)
+Compiling module 'Video_Frame_Buffer_Top_32'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer_32\video_frame_buffer_32.v":3958)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer_dual\video_frame_buffer_dual.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer_dual\video_frame_buffer_dual.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer_dual\video_frame_buffer_dual.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer_dual\video_frame_buffer_dual.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer_dual\video_frame_buffer_dual.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer_dual\video_frame_buffer_dual.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer_dual\video_frame_buffer_dual.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer_dual\video_frame_buffer_dual.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer_dual\video_frame_buffer_dual.v":0)
+Compiling module '**'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer_dual\video_frame_buffer_dual.v":0)
+Compiling module 'Video_Frame_Buffer_Top_dual'("D:\gaoyun\ov18k1\ov18k\src\video_frame_buffer_dual\video_frame_buffer_dual.v":4135)
+Compiling module 'video_rPLL'("D:\gaoyun\ov18k1\ov18k\src\video_rpll\video_rpll.v":9)
+Compiling module '**'("D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v":0)
+Extracting RAM for identifier '**'("D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v":0)
+Compiling module '**'("D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":0)
+WARN  (EX3791) : Expression size ** truncated to fit in target size **("D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":0)
+Compiling module '**'("D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v":0)
+Extracting RAM for identifier '**'("D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v":0)
+Compiling module '**'("D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v":0)
+Compiling module 'GW_JTAG'("D:\fpga\Gowin\Gowin_V1.9.8\IDE\data\ipcores\gw_jtag.v":1)
+Compiling module 'gw_gao'("D:\gaoyun\ov18k1\ov18k\impl\gwsynthesis\RTL_GAO\gw_gao_top.v":1)
+Processing '**(**)'("D:\gaoyun\ov18k1\ov18k\src\fifo_pong\fifo_pong.vhd":0)
+Processing 'fifo_pong(beh)'("D:\gaoyun\ov18k1\ov18k\src\fifo_pong\fifo_pong.vhd":791)
+Trying to combine GAO to RTL design
+NOTE  (EX0101) : Current top module is "dual_ov5640_lcd"
+WARN  (EX0211) : The output port "sr_ack" of module "DDR3_Memory_Interface_Top" has no driver("D:\gaoyun\ov18k1\ov18k\src\ddr3_memory_interface\ddr3_memory_interface.v":11539)
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "D:\gaoyun\ov18k1\ov18k\impl\gwsynthesis\ov18k.vg" completed
+[100%] Generate report file "D:\gaoyun\ov18k1\ov18k\impl\gwsynthesis\ov18k_syn.rpt.html" completed
+GowinSynthesis finish

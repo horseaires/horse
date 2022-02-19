@@ -1,0 +1,280 @@
+[
+ {
+  "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/dual_ov5640_lcd.v",
+  "InstLine" : 1,
+  "InstName" : "dual_ov5640_lcd",
+  "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/dual_ov5640_lcd.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "dual_ov5640_lcd",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/dual_ov5640_lcd.v",
+    "InstLine" : 156,
+    "InstName" : "u_cmos_rPLL",
+    "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/cmos_rpll/cmos_rpll.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "cmos_rPLL"
+   },
+   {
+    "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/dual_ov5640_lcd.v",
+    "InstLine" : 166,
+    "InstName" : "u0_ov5640_dri",
+    "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/ov5640/ov5640_dri.v",
+    "ModuleLine" : 22,
+    "ModuleName" : "ov5640_dri",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/ov5640/ov5640_dri.v",
+      "InstLine" : 70,
+      "InstName" : "u_i2c_cfg",
+      "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/ov5640/i2c_ov5640_rgb565_cfg.v",
+      "ModuleLine" : 22,
+      "ModuleName" : "i2c_ov5640_rgb565_cfg"
+     },
+     {
+      "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/ov5640/ov5640_dri.v",
+      "InstLine" : 94,
+      "InstName" : "u_i2c_dr",
+      "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/ov5640/i2c_dri.v",
+      "ModuleLine" : 22,
+      "ModuleName" : "i2c_dri"
+     },
+     {
+      "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/ov5640/ov5640_dri.v",
+      "InstLine" : 113,
+      "InstName" : "u_cmos_capture_data",
+      "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/ov5640/OV5640_capture_data.v",
+      "ModuleLine" : 22,
+      "ModuleName" : "OV5640_capture_data"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/dual_ov5640_lcd.v",
+    "InstLine" : 194,
+    "InstName" : "u1_ov5640_dri",
+    "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/ov5640/ov5640_dri.v",
+    "ModuleLine" : 22,
+    "ModuleName" : "ov5640_dri",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/ov5640/ov5640_dri.v",
+      "InstLine" : 70,
+      "InstName" : "u_i2c_cfg",
+      "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/ov5640/i2c_ov5640_rgb565_cfg.v",
+      "ModuleLine" : 22,
+      "ModuleName" : "i2c_ov5640_rgb565_cfg"
+     },
+     {
+      "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/ov5640/ov5640_dri.v",
+      "InstLine" : 94,
+      "InstName" : "u_i2c_dr",
+      "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/ov5640/i2c_dri.v",
+      "ModuleLine" : 22,
+      "ModuleName" : "i2c_dri"
+     },
+     {
+      "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/ov5640/ov5640_dri.v",
+      "InstLine" : 113,
+      "InstName" : "u_cmos_capture_data",
+      "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/ov5640/OV5640_capture_data.v",
+      "ModuleLine" : 22,
+      "ModuleName" : "OV5640_capture_data"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/dual_ov5640_lcd.v",
+    "InstLine" : 224,
+    "InstName" : "u_cmos_add",
+    "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/cmos_add.v",
+    "ModuleLine" : 6,
+    "ModuleName" : "cmos_add",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/cmos_add.v",
+      "InstLine" : 43,
+      "InstName" : "u_fifo_pong",
+      "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/fifo_pong/fifo_pong.v",
+      "ModuleLine" : 615,
+      "ModuleName" : "fifo_pong",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/fifo_pong/fifo_pong.v",
+        "InstLine" : 640,
+        "InstName" : "fifo_inst",
+        "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/fifo_pong/fifo_pong.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "~fifo.fifo_pong"
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/cmos_add.v",
+      "InstLine" : 143,
+      "InstName" : "u_fifo_splicing",
+      "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/fifo_pong/fifo_pong.v",
+      "ModuleLine" : 615,
+      "ModuleName" : "fifo_pong",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/fifo_pong/fifo_pong.v",
+        "InstLine" : 640,
+        "InstName" : "fifo_inst",
+        "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/fifo_pong/fifo_pong.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "~fifo.fifo_pong"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/dual_ov5640_lcd.v",
+    "InstLine" : 242,
+    "InstName" : "Video_Frame_Buffer",
+    "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/video_frame_buffer/video_frame_buffer.v",
+    "ModuleLine" : 4132,
+    "ModuleName" : "Video_Frame_Buffer_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/video_frame_buffer/video_frame_buffer.v",
+      "InstLine" : 4195,
+      "InstName" : "vfb_ddr3_wrapper_inst",
+      "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/video_frame_buffer/video_frame_buffer.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~vfb_ddr3_wrapper.Video_Frame_Buffer_Top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/dual_ov5640_lcd.v",
+    "InstLine" : 280,
+    "InstName" : "pll_ddr3",
+    "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/ddr_rpll/ddr_rpll.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "ddr_rPLL"
+   },
+   {
+    "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/dual_ov5640_lcd.v",
+    "InstLine" : 287,
+    "InstName" : "DDR3_MIG",
+    "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/ddr3_memory_interface/ddr3_memory_interface.v",
+    "ModuleLine" : 11477,
+    "ModuleName" : "DDR3_Memory_Interface_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/ddr3_memory_interface/ddr3_memory_interface.v",
+      "InstLine" : 11562,
+      "InstName" : "gw3_top",
+      "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/ddr3_memory_interface/ddr3_memory_interface.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~GW_DDR3_PHY_MC.DDR3_Memory_Interface_Top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/dual_ov5640_lcd.v",
+    "InstLine" : 335,
+    "InstName" : "syn_gen_inst",
+    "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/syn_code/syn_gen.v",
+    "ModuleLine" : 13,
+    "ModuleName" : "syn_gen"
+   },
+   {
+    "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/dual_ov5640_lcd.v",
+    "InstLine" : 359,
+    "InstName" : "u_tmds_pll",
+    "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/hdmi_rpll/hdmi_rpll.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "hdmi_rPLL"
+   },
+   {
+    "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/dual_ov5640_lcd.v",
+    "InstLine" : 367,
+    "InstName" : "u_Gowin_CLKDIV",
+    "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_CLKDIV"
+   },
+   {
+    "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/dual_ov5640_lcd.v",
+    "InstLine" : 374,
+    "InstName" : "DVI_TX",
+    "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/dvi_tx/dvi_tx.v",
+    "ModuleLine" : 1042,
+    "ModuleName" : "DVI_TX_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/dvi_tx/dvi_tx.v",
+      "InstLine" : 1073,
+      "InstName" : "rgb2dvi_inst",
+      "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/dvi_tx/dvi_tx.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~rgb2dvi.DVI_TX_Top"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/ov5640/picture_size.v",
+  "InstLine" : 22,
+  "InstName" : "picture_size",
+  "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/ov5640/picture_size.v",
+  "ModuleLine" : 22,
+  "ModuleName" : "picture_size"
+ },
+ {
+  "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/testpattern.v",
+  "InstLine" : 19,
+  "InstName" : "testpattern",
+  "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/testpattern.v",
+  "ModuleLine" : 19,
+  "ModuleName" : "testpattern"
+ },
+ {
+  "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/video_frame_buffer_32/video_frame_buffer_32.v",
+  "InstLine" : 3958,
+  "InstName" : "Video_Frame_Buffer_Top_32",
+  "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/video_frame_buffer_32/video_frame_buffer_32.v",
+  "ModuleLine" : 3958,
+  "ModuleName" : "Video_Frame_Buffer_Top_32",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/video_frame_buffer_32/video_frame_buffer_32.v",
+    "InstLine" : 4021,
+    "InstName" : "vfb_ddr3_wrapper_inst",
+    "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/video_frame_buffer_32/video_frame_buffer_32.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "~vfb_ddr3_wrapper.Video_Frame_Buffer_Top_32"
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/video_frame_buffer_dual/video_frame_buffer_dual.v",
+  "InstLine" : 4135,
+  "InstName" : "Video_Frame_Buffer_Top_dual",
+  "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/video_frame_buffer_dual/video_frame_buffer_dual.v",
+  "ModuleLine" : 4135,
+  "ModuleName" : "Video_Frame_Buffer_Top_dual",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/video_frame_buffer_dual/video_frame_buffer_dual.v",
+    "InstLine" : 4198,
+    "InstName" : "vfb_ddr3_wrapper_inst",
+    "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/video_frame_buffer_dual/video_frame_buffer_dual.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "~vfb_ddr3_wrapper.Video_Frame_Buffer_Top_dual"
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/gaoyun/ov18k1/ov18k/src/video_rpll/video_rpll.v",
+  "InstLine" : 9,
+  "InstName" : "video_rPLL",
+  "ModuleFile" : "D:/gaoyun/ov18k1/ov18k/src/video_rpll/video_rpll.v",
+  "ModuleLine" : 9,
+  "ModuleName" : "video_rPLL"
+ }
+]
